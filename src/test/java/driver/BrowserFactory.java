@@ -1,5 +1,6 @@
 package driver;
 
+import configuration.TestRunProperties;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -87,7 +88,7 @@ public class BrowserFactory {
         RemoteWebDriver remoteWebDriver = null;
 
         try {
-            remoteWebDriver = new RemoteWebDriver(new URL("GRID_URL"), desiredCapabilities);
+            remoteWebDriver = new RemoteWebDriver(new URL(TestRunProperties.getGridUrl()), desiredCapabilities);
         } catch (MalformedURLException e) {
             e.printStackTrace();
             throw new RuntimeException("Failed to create RemoteWebDriver due to:" + e.getMessage());
