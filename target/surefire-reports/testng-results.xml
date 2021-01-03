@@ -2,44 +2,58 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="All Pet Store Tests" duration-ms="14755" started-at="2020-12-27T20:22:07 CET" finished-at="2020-12-27T20:22:21 CET">
+  <suite name="All Pet Store Tests" duration-ms="8464" started-at="2021-01-03T23:32:14 CET" finished-at="2021-01-03T23:32:22 CET">
     <groups>
     </groups>
-    <test name="Negative Login Tests" duration-ms="7877" started-at="2020-12-27T20:22:07 CET" finished-at="2020-12-27T20:22:15 CET">
+    <test name="Negative Login Tests" duration-ms="7036" started-at="2021-01-03T23:32:14 CET" finished-at="2021-01-03T23:32:21 CET">
       <class name="tests.FailedLoginTests">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.FailedLoginTests@ff5b51f]" name="beforeClass" is-config="true" duration-ms="340" started-at="2020-12-27T20:22:07 CET" finished-at="2020-12-27T20:22:07 CET">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.FailedLoginTests@69637b10]" name="beforeClass" is-config="true" duration-ms="702" started-at="2021-01-03T23:32:14 CET" finished-at="2021-01-03T23:32:14 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.FailedLoginTests@ff5b51f]" name="beforeTest" is-config="true" duration-ms="6235" started-at="2020-12-27T20:22:07 CET" finished-at="2020-12-27T20:22:13 CET">
+        <test-method status="PASS" signature="beforeTest(driver.BrowserType)[pri:0, instance:tests.FailedLoginTests@69637b10]" name="beforeTest" is-config="true" duration-ms="4617" started-at="2021-01-03T23:32:14 CET" finished-at="2021-01-03T23:32:19 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="asUserTryToLogInWithIncorrectLoginAndPassword()[pri:0, instance:tests.FailedLoginTests@ff5b51f]" name="asUserTryToLogInWithIncorrectLoginAndPassword" duration-ms="683" started-at="2020-12-27T20:22:13 CET" finished-at="2020-12-27T20:22:14 CET">
+        <test-method status="PASS" signature="asUserTryToLogInWithIncorrectLoginAndPassword()[pri:0, instance:tests.FailedLoginTests@69637b10]" name="asUserTryToLogInWithIncorrectLoginAndPassword" duration-ms="911" started-at="2021-01-03T23:32:19 CET" finished-at="2021-01-03T23:32:20 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asUserTryToLogInWithIncorrectLoginAndPassword -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.FailedLoginTests@ff5b51f]" name="afterTest" is-config="true" duration-ms="598" started-at="2020-12-27T20:22:14 CET" finished-at="2020-12-27T20:22:15 CET">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.FailedLoginTests@69637b10]" name="afterTest" is-config="true" duration-ms="651" started-at="2021-01-03T23:32:20 CET" finished-at="2021-01-03T23:32:21 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- tests.FailedLoginTests -->
     </test> <!-- Negative Login Tests -->
-    <test name="Positive Login Tests" duration-ms="6848" started-at="2020-12-27T20:22:15 CET" finished-at="2020-12-27T20:22:21 CET">
+    <test name="Positive Login Tests" duration-ms="8464" started-at="2021-01-03T23:32:14 CET" finished-at="2021-01-03T23:32:22 CET">
       <class name="tests.PositiveLoginTests">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.PositiveLoginTests@52a86356]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-12-27T20:22:15 CET" finished-at="2020-12-27T20:22:15 CET">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.PositiveLoginTests@f27ea3]" name="beforeClass" is-config="true" duration-ms="331" started-at="2021-01-03T23:32:14 CET" finished-at="2021-01-03T23:32:14 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.PositiveLoginTests@52a86356]" name="beforeTest" is-config="true" duration-ms="5494" started-at="2020-12-27T20:22:15 CET" finished-at="2020-12-27T20:22:20 CET">
+        <test-method status="PASS" signature="beforeTest(driver.BrowserType)[pri:0, instance:tests.PositiveLoginTests@f27ea3]" name="beforeTest" is-config="true" duration-ms="6700" started-at="2021-01-03T23:32:14 CET" finished-at="2021-01-03T23:32:21 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="asUserLoginUsingValidLoginAndPassword()[pri:0, instance:tests.PositiveLoginTests@52a86356]" name="asUserLoginUsingValidLoginAndPassword" duration-ms="761" started-at="2020-12-27T20:22:20 CET" finished-at="2020-12-27T20:22:21 CET">
+        <test-method status="PASS" signature="asUserLoginUsingValidLoginAndPassword()[pri:0, instance:tests.PositiveLoginTests@f27ea3]" name="asUserLoginUsingValidLoginAndPassword" duration-ms="1236" started-at="2021-01-03T23:32:21 CET" finished-at="2021-01-03T23:32:22 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asUserLoginUsingValidLoginAndPassword -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.PositiveLoginTests@52a86356]" name="afterTest" is-config="true" duration-ms="591" started-at="2020-12-27T20:22:21 CET" finished-at="2020-12-27T20:22:21 CET">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.PositiveLoginTests@f27ea3]" name="afterTest" is-config="true" duration-ms="97" started-at="2021-01-03T23:32:22 CET" finished-at="2021-01-03T23:32:22 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
