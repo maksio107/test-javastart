@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="All Pet Store Tests" duration-ms="8464" started-at="2021-01-03T23:32:14 CET" finished-at="2021-01-03T23:32:22 CET">
+  <suite name="All Pet Store Tests" duration-ms="10424" started-at="2021-01-06T16:42:48 CET" finished-at="2021-01-06T16:42:59 CET">
     <groups>
     </groups>
-    <test name="Negative Login Tests" duration-ms="7036" started-at="2021-01-03T23:32:14 CET" finished-at="2021-01-03T23:32:21 CET">
+    <test name="Negative Login Tests" duration-ms="10424" started-at="2021-01-06T16:42:48 CET" finished-at="2021-01-06T16:42:59 CET">
       <class name="tests.FailedLoginTests">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.FailedLoginTests@69637b10]" name="beforeClass" is-config="true" duration-ms="702" started-at="2021-01-03T23:32:14 CET" finished-at="2021-01-03T23:32:14 CET">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.FailedLoginTests@754777cd]" name="beforeClass" is-config="true" duration-ms="614" started-at="2021-01-06T16:42:48 CET" finished-at="2021-01-06T16:42:49 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeTest(driver.BrowserType)[pri:0, instance:tests.FailedLoginTests@69637b10]" name="beforeTest" is-config="true" duration-ms="4617" started-at="2021-01-03T23:32:14 CET" finished-at="2021-01-03T23:32:19 CET">
+        <test-method status="PASS" signature="beforeTest(driver.BrowserType)[pri:0, instance:tests.FailedLoginTests@754777cd]" name="beforeTest" is-config="true" duration-ms="7930" started-at="2021-01-06T16:42:49 CET" finished-at="2021-01-06T16:42:57 CET">
           <params>
             <param index="0">
               <value>
@@ -22,42 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="asUserTryToLogInWithIncorrectLoginAndPassword()[pri:0, instance:tests.FailedLoginTests@69637b10]" name="asUserTryToLogInWithIncorrectLoginAndPassword" duration-ms="911" started-at="2021-01-03T23:32:19 CET" finished-at="2021-01-03T23:32:20 CET">
+        <test-method status="PASS" signature="asUserTryToLogInWithIncorrectLoginAndPassword()[pri:0, instance:tests.FailedLoginTests@754777cd]" name="asUserTryToLogInWithIncorrectLoginAndPassword" duration-ms="1030" started-at="2021-01-06T16:42:57 CET" finished-at="2021-01-06T16:42:58 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asUserTryToLogInWithIncorrectLoginAndPassword -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.FailedLoginTests@69637b10]" name="afterTest" is-config="true" duration-ms="651" started-at="2021-01-03T23:32:20 CET" finished-at="2021-01-03T23:32:21 CET">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.FailedLoginTests@754777cd]" name="afterTest" is-config="true" duration-ms="674" started-at="2021-01-06T16:42:58 CET" finished-at="2021-01-06T16:42:59 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- tests.FailedLoginTests -->
     </test> <!-- Negative Login Tests -->
-    <test name="Positive Login Tests" duration-ms="8464" started-at="2021-01-03T23:32:14 CET" finished-at="2021-01-03T23:32:22 CET">
-      <class name="tests.PositiveLoginTests">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.PositiveLoginTests@f27ea3]" name="beforeClass" is-config="true" duration-ms="331" started-at="2021-01-03T23:32:14 CET" finished-at="2021-01-03T23:32:14 CET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeTest(driver.BrowserType)[pri:0, instance:tests.PositiveLoginTests@f27ea3]" name="beforeTest" is-config="true" duration-ms="6700" started-at="2021-01-03T23:32:14 CET" finished-at="2021-01-03T23:32:21 CET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CHROME]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="asUserLoginUsingValidLoginAndPassword()[pri:0, instance:tests.PositiveLoginTests@f27ea3]" name="asUserLoginUsingValidLoginAndPassword" duration-ms="1236" started-at="2021-01-03T23:32:21 CET" finished-at="2021-01-03T23:32:22 CET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- asUserLoginUsingValidLoginAndPassword -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.PositiveLoginTests@f27ea3]" name="afterTest" is-config="true" duration-ms="97" started-at="2021-01-03T23:32:22 CET" finished-at="2021-01-03T23:32:22 CET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- tests.PositiveLoginTests -->
-    </test> <!-- Positive Login Tests -->
   </suite> <!-- All Pet Store Tests -->
 </testng-results>

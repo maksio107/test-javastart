@@ -24,7 +24,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
-            <version>1.7.25</version>
+            <version>1.6.6</version>
         </dependency>
         <dependency>
             <groupId>org.aspectj</groupId>
@@ -71,6 +71,7 @@
 
 
 
+
     </dependencies>
 
 
@@ -83,6 +84,7 @@
                 <version>2.10.0</version>
                 <configuration>
                     <reportVersion>2.6.0</reportVersion>
+                    <propertiesFilePath>${basedir}/src/main/resources/allure.properties</propertiesFilePath>
                 </configuration>
             </plugin>
             <plugin>

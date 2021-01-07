@@ -1,5 +1,6 @@
 package page.object;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -21,6 +22,7 @@ public class LandingPage {
         PageFactory.initElements(DriverManager.getWebDriver(),this);
     }
 
+    @Step("Click on Enter Store link")
     public TopMenuPage clickOnEnterStoreLink(){
         WaitForElement.waitUntilElementIsClickable(enterStoreLink);
         enterStoreLink.click();
