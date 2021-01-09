@@ -9,6 +9,8 @@ import org.openqa.selenium.support.PageFactory;
 import driver.DriverManager;
 import waits.WaitForElement;
 
+import static generic.assertions.AssertWebElement.assertThat;
+
 public class FooterPage {
 
     private Logger logger = LogManager.getLogger(FooterPage.class);
@@ -20,11 +22,11 @@ public class FooterPage {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
-    @Step("Getting is dog banner is displayed")
-    public boolean isBannerAfterLoginDisplayed(){
+    @Step("Assert that element dog banner is displayed")
+    public FooterPage asserThatDogBannerIsDisplayed(){
+        logger.info("Checking if dog banner is displayed");
         WaitForElement.waitUntilElementVisible(bannerAfterLoginLogo);
-        boolean isDisplayed = bannerAfterLoginLogo.isDisplayed();
-        logger.info("Returning status of banner after login: {}", isDisplayed);
-        return isDisplayed;
+        assertThat(bannerAfterLoginLogo).isDisplayed();
+        return this;
     }
 }

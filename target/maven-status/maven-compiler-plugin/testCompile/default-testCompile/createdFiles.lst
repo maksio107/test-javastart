@@ -1,3 +1,5 @@
+generic\assertions\AssertWebElement.class
+utils\testng\listeners\TestListeners.class
 configuration\AppProperties.class
 page\object\LoginPage.class
 configuration\PropertiesLoader.class
@@ -21,5 +23,8 @@ configuration\ConfigurationProperties.class
 page\object\CheckoutPage.class
 configuration\TestRunProperties.class
 waits\WaitForElement.class
+listeners\DriverEventListener.class
+listeners\WebDriverEventListenerRegistrar.class
 page\object\FooterPage.class
+utils\ScreenShotMaker.class
 driver\DriverUtils.class

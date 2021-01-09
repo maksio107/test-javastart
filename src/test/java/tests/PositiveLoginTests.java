@@ -30,11 +30,8 @@ public class PositiveLoginTests extends TestBase {
                 .typeIntoUserNameField("j2ee")
                 .typeIntoPasswordField("j2ee")
                 .clickOnSignOnButton()
-                .isBannerAfterLoginDisplayed();
+                .asserThatDogBannerIsDisplayed();
 
-        FooterPage footerPage = new FooterPage();
-
-        assertTrue(footerPage.isBannerAfterLoginDisplayed());
     }
 
 }
