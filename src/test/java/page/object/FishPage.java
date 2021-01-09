@@ -9,7 +9,7 @@ import driver.DriverManager;
 import waits.WaitForElement;
 
 public class FishPage {
-    private Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(FishPage.class);
 
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")
     WebElement angelFishButton;

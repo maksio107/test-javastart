@@ -9,7 +9,7 @@ import driver.DriverManager;
 import waits.WaitForElement;
 
 public class AngelfishPage {
-    private Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(AngelfishPage.class);
 
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[3]/td[5]/a")
     WebElement addToCardSmallAngelfish;

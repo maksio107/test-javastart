@@ -10,7 +10,7 @@ import driver.DriverManager;
 import waits.WaitForElement;
 
 public class TopMenuPage {
-    private Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(TopMenuPage.class);
     @FindBy(xpath = "//*[@id=\"MenuContent\"]/a[2]")
     private WebElement singInButton;
     public TopMenuPage( ) {

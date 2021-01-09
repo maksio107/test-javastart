@@ -14,7 +14,7 @@ import org.apache.logging.log4j.Logger;
 public class LandingPage {
 
 
-    private Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(LandingPage.class);
     @FindBy(xpath = "//*[@id=\"Content\"]/p[1]/a")
     private WebElement enterStoreLink;
 
